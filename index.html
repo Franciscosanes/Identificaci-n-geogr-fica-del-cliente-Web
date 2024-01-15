@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Información de la IP del Cliente</title>
+    <!-- Agrega los enlaces a los archivos de Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        /* Estilo para alternar colores de filas */
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: #f9f9f9;
+        }
+
+        /* Estilo para centrar el título */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Cambia el color de fondo de la cabecera a azul cielo */
+        .thead-light {
+            background-color: #87CEEB; /* Azul cielo */
+            color: white; /* Texto en blanco */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center mt-4 mb-4">Información de la IP del Cliente</h2>
+    <table class="table table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">IP</th>
+                <th scope="col">País</th>
+                <th scope="col">Continente</th>
+                <th scope="col">Zona Horaria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Ejemplo de datos de muestra -->
+            <tr>
+                <td>192.168.1.1</td>
+                <td>Estados Unidos</td>
+                <td>América del Norte</td>
+                <td>UTC-05:00</td>
+            </tr>
+            <tr>
+                <td>10.0.0.1</td>
+                <td>Canadá</td>
+                <td>América del Norte</td>
+                <td>UTC-04:00</td>
+            </tr>
+            <!-- Puedes agregar más filas con datos de muestra aquí -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Agrega el enlace al archivo de Bootstrap JS y jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
